@@ -1,4 +1,4 @@
-# Data Licensing Notice for Product Master Data Files (`*.jsonld`)
+# Data Licensing Notice for Product Master Data Files (`*.jsonld` under `/data`)
 
 ## Human-Readable Declaration
 
