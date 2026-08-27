@@ -16,10 +16,6 @@ underlying factual content**.
 
 ## Machine-Readable Declaration
 
-⚠️ Do not attach a bare `"license": "..."` directly onto a `gs1:Product` node — `dct:license` /
-`schema:license` is only defined for `CreativeWork`-type nodes (e.g. `Dataset`), not `Product`.
-The declaration below therefore applies at dataset level and covers all distributions:
-
 ```json
 {
   "@context": {
@@ -49,7 +45,3 @@ The declaration below therefore applies at dataset level and covers all distribu
 }
 ```
 
-Note: `@id` values here use the raw GitHub URL as a stable, dereferenceable identifier for the
-Dataset itself and a `#fragment` per Distribution — this avoids blank nodes and makes each
-entity individually addressable (e.g. in the JSON-LD Playground, SPARQL queries, or by other
-catalogs that want to link to a specific distribution).

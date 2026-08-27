@@ -5,7 +5,7 @@
   },
   "@id": "https://raw.githubusercontent.com/gs1-germany/agentic-commerce-sample-data/main/catalog.jsonld",
   "@type": "dcat:Dataset",
-  "dct:title": "Agentic Commerce – Sample Product Master Data",
+  "dct:title": "Agentic Commerce - Sample Product Master Data",
   "dct:license": "https://creativecommons.org/licenses/by/4.0/",
   "dcat:distribution": [
     {
