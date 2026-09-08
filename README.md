@@ -12,10 +12,6 @@ A learning-by-doing pilot: gather experience, iterate, and identify what already
 
 For licensing terms and permitted use, please refer to the [Data License](DATA-LICENSE.md).
 
-## Status
-
-🧪 Work in progress. 
-
 ## Contact
 
 Ralph Tröger · ralph.troeger@gs1.de · GS1 Germany
