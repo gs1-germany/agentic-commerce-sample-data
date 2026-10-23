@@ -1,0 +1,426 @@
+{
+    "@context": [
+        {
+            "@version": 1.1,
+            "@protected": true,
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "dct": "http://purl.org/dc/terms/",
+            "schema": "http://schema.org/",
+            "gs1": "https://ref.gs1.org/voc/",
+            "gs1:availabilityStarts": {
+                "@type": "xsd:dateTime"
+            },
+            "gs1:brand": {
+                "@type": "@id"
+            },
+            "gs1:brandName": {
+                "@container": "@language"
+            },
+            "gs1:brandOwner": {
+                "@type": "@id"
+            },
+            "gs1:consumerUsageInstructions": {
+                "@container": "@language"
+            },
+            "gs1:countryOfOrigin": {
+                "@type": "@id"
+            },
+            "gs1:filePixelHeight": {
+                "@type": "xsd:integer"
+            },
+            "gs1:filePixelWidth": {
+                "@type": "xsd:integer"
+            },
+            "gs1:functionalName": {
+                "@container": "@language"
+            },
+            "gs1:gpcCategoryDescription": {
+                "@container": "@language"
+            },
+            "gs1:grossWeight": {
+                "@type": "@id"
+            },
+            "gs1:inPackageDepth": {
+                "@type": "@id"
+            },
+            "gs1:inPackageHeight": {
+                "@type": "@id"
+            },
+            "gs1:inPackageWidth": {
+                "@type": "@id"
+            },
+            "gs1:ingredientStatement": {
+                "@container": "@language"
+            },
+            "gs1:manufacturer": {
+                "@type": "@id"
+            },
+            "gs1:netContent": {
+                "@type": "@id"
+            },
+            "gs1:netWeight": {
+                "@type": "@id"
+            },
+            "gs1:organizationName": {
+                "@container": "@language"
+            },
+            "gs1:packaging": {
+                "@type": "@id"
+            },
+            "gs1:packagingMarkedLabelAccreditation": {
+                "@type": "@vocab"
+            },
+            "gs1:packagingMaterial": {
+                "@type": "@id"
+            },
+            "gs1:packagingMaterialCompositionQuantity": {
+                "@type": "@id"
+            },
+            "gs1:packagingMaterialType": {
+                "@type": "@vocab"
+            },
+            "gs1:productDescription": {
+                "@container": "@language"
+            },
+            "gs1:productFeatureBenefit": {
+                "@container": "@language"
+            },
+            "gs1:productMarketingMessage": {
+                "@container": "@language"
+            },
+            "gs1:referencedFile": {
+                "@type": "@id"
+            },
+            "gs1:referencedFileEffectiveEndDateTime": {
+                "@type": "xsd:dateTime"
+            },
+            "gs1:referencedFileEffectiveStartDateTime": {
+                "@type": "xsd:dateTime"
+            },
+            "gs1:referencedFileSize": {
+                "@type": "@id"
+            },
+            "gs1:referencedFileType": {
+                "@type": "@vocab"
+            },
+            "gs1:referencedFileURL": {
+                "@type": "@id"
+            },
+            "gs1:regulationType": {
+                "@type": "@vocab"
+            },
+            "gs1:regulatoryInformation": {
+                "@type": "@id"
+            },
+            "gs1:subBrandName": {
+                "@container": "@language"
+            },
+            "gs1:targetMarket": {
+                "@type": "@id"
+            },
+            "gs1:targetMarketCountries": {
+                "@type": "@id"
+            },
+            "gs1:value": {
+                "@type": "xsd:float"
+            },
+            "gs1:variantDescription": {
+                "@container": "@language"
+            },
+            "gs1de": "https://voc.gs1.de/",
+            "gs1de:importClassificationTypeCode": {
+                "@type": "@vocab"
+            },
+            "gs1de:tradeItemUnitDescriptorCode": {
+                "@type": "@vocab"
+            },
+            "gs1de:targetConsumerGender": {
+                "@type": "@vocab"
+            },
+            "gs1de:packagingRawMaterialCode": {
+                "@type": "@vocab"
+            },
+            "gs1de:packagingRawMaterialContentPercentage": {
+                "@type": "xsd:float"
+            },
+            "gs1de:targetHairTypeCode": {
+                "@type": "@vocab"
+            },
+            "gs1de:descriptionShort": {
+                "@container": "@language"
+            },
+            "gs1de:productKeyWords": {
+                "@container": "@language"
+            },
+            "gs1:faqs": {
+                "@type": "@id"
+            }
+        }
+    ],
+    "@type": "gs1:Product",
+    "@id": "https://id.gs1.org/01/04072600720080",
+    "gs1:gtin": "04072600720080",
+    "gs1de:isTradeItemABaseUnit": true,
+    "gs1de:isTradeItemAConsumerUnit": true,
+    "gs1de:isTradeItemADespatchUnit": false,
+    "gs1de:isTradeItemAVariableUnit": false,
+    "gs1de:tradeItemUnitDescriptorCode": "gs1de:TradeItemUnitDescriptorCode-BASE_UNIT_OR_EACH",
+    "gs1:gpcCategoryCode": "10000346",
+    "gs1:gpcCategoryDescription": {
+        "en": "Hair - Conditioner/Treatment"
+    },
+    "gs1:availabilityStarts": "2022-05-01T00:00:00+00:00",
+    "gs1:productFeatureBenefit": {
+        "de": [
+            "Unsere Versprechen: Dermatologisch bestätigt - Inhaltsstoffe zu 97% natürlichen Ursprungs & bis zu 99% biologisch abbaubar - Hergestellt in Deutschland",
+            "Hochkonzentriert: Die reparierende Kur pflegt und regeneriert strapaziertes, geschädigtes und beanspruchtes Haar in nur 30 Sekunden nachhaltig",
+            "Intensive Pflege: Versorgt das Haar mit Feuchtigkeit und schenkt leicht kämmbares und sichtbar gepflegtes, geschmeidiges Haar",
+            "Natürliche Pflege: Nährstoffreiches Birnenextrakt versorgt mit Vitaminen & Antioxidantien - Pflegendes Öl glättet die Haarstruktur und spendet geschmeidige Feuchtigkeit",
+            "Express-Pflege: Die konzentriert wirkenden Guhl 30_sek Intensiv Kuren sind tiefenwirksam wie eine Kur und schnell wie eine Spülung"
+        ]
+    },
+    "gs1:productMarketingMessage": {
+        "de": "Guhl 30 Sekunden Intensiv Kur - Konzentrierte Pflege, umweltschonend hergestellt. Schnell wie eine Spülung, wirksam wie eine Kur. Die hochkonzentrierte Formel besteht zu 97% aus natürlichen Inhaltsstoffen und ist zu 99% biologisch abbaubar. Auch die Tube ohne Verschluss ist zu 48% aus recyceltem Material und zudem wieder recycelbar. Produkt und Verpackung werden in Deutschland hergestellt, sodass kurze Transport- und Lieferwege zusätzlich ressourcenschonend sind. Mit der veganen Formulierung pflegen die Guhl Intensiv Kuren sanft für eine gesunde, glänzende Haarpracht. Echte Qualität, der du vertrauen kannst, so dass du deinen Wohlfühlmoment unbeschwert genießen kannst. Das ist Guhl. Seit über 75 Jahren nutzen wir unsere Expertise & Leidenschaft und kreieren hochwertige Haarpflegeprodukte, auf die du dich verlassen kannst. Guhl sorgt für sichtbar & spürbar gepflegtes Haar, ist dermatologisch bestätigt, PETA zertifiziert, enthält regionale Inhaltsstoffe und wird in Deutschland hergestellt! Augen zu, Musik an & genießen!"
+    },
+    "gs1de:productKeyWords": {
+        "de": "haar-spülung hair conditioner rinse naturkosmetik abbaubar organic natur eco soap ökologisch umweltfreundlich umweltschonend natürlich silikonfrei ressourcenschonend sustainable hair cure conditioner haarkur hair repair reparaturkur haar-maske"
+    },
+    "gs1de:targetConsumerGender": "gs1:TargetConsumerGenderCode-UNISEX",
+    "gs1de:targetHairTypeCode": [
+        "gs1de:TargetHairTypeCode-DAMAGED",
+        "gs1de:TargetHairTypeCode-UNRULY",
+        "gs1de:TargetHairTypeCode-THICK",
+        "gs1de:TargetHairTypeCode-LONG"
+    ],
+    "gs1:packagingMarkedLabelAccreditation": [
+        "gs1:PackagingMarkedLabelAccreditationCode-GREEN_DOT",
+        "gs1:PackagingMarkedLabelAccreditationCode-CRUELTY_FREE_PETA"
+    ],
+    "gs1:ingredientStatement": {
+        "de": "Ingredients: Aqua, Cetearyl Alcohol, Behentrimonium Chloride, Cetyl Esters, Dipropylene Glycol, Glycerin, Panthenol, Tetrasodium Glutamate Diacetate, Lactic Acid, Ethylhexylglycerin, Pyrus Communis Fruit Extract, Persea Gratissima Oil, Tocopherol, Phenoxyethanol, Parfum."
+    },
+    "gs1de:descriptionShort": {
+        "de": "30_sek Intensiv Kur Reparatur 100ml"
+    },
+    "gs1:functionalName": {
+        "de": "Kur"
+    },
+    "gs1:productDescription": {
+        "de": "GUHL 30_sek Intensiv Kur Reparatur 100ml"
+    },
+    "gs1:variantDescription": {
+        "de": "Reparatur"
+    },
+    "gs1:consumerUsageInstructions": {
+        "de": "Anwendung: Nach der Haarwäsche ins nasse Haar einmassieren, 30 Sekunden einwirken lassen und ausspülen."
+    },
+    "gs1:inPackageDepth": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "35",
+        "gs1:unitCode": "MMT"
+    },
+    "gs1:inPackageHeight": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "168",
+        "gs1:unitCode": "MMT"
+    },
+    "gs1:inPackageWidth": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "54",
+        "gs1:unitCode": "MMT"
+    },
+    "gs1:netContent": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "100",
+        "gs1:unitCode": "MLT"
+    },
+    "gs1:grossWeight": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "114",
+        "gs1:unitCode": "GRM"
+    },
+    "gs1:netWeight": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "100",
+        "gs1:unitCode": "GRM"
+    },
+    "gs1:countryOfOrigin": [
+        {
+            "gs1:countryCode": "DE"
+        }
+    ],
+    "gs1:referencedFile": [
+        {
+            "gs1:referencedFileURL": "https://eu.api.atrify.com/dam/content/dam-fmcg-pub/4072600000007/8f384009-9d4c-4670-ae27-b4986cfeb324-04072600720080_C1N1_s01_v01.jpg",
+            "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-PRODUCT_IMAGE",
+            "gs1:fileLanguageCode": "de",
+            "gs1:referencedFileEffectiveStartDateTime": "2023-09-22T00:00:00+00:00",
+            "schema:name": "04072600720080_C1N1_s01_v01",
+            "schema:encodingFormat": "image/jpeg",
+            "gs1:filePixelHeight": "6000",
+            "gs1:filePixelWidth": "2900",
+            "gs1:referencedFileSize": {
+                "@type": "gs1:QuantitativeValue",
+                "gs1:value": "2282077",
+                "gs1:unitCode": "AD"
+            }
+        },
+        {
+            "gs1:referencedFileURL": "https://eu.api.atrify.com/dam/content/dam-fmcg-pub/4072600000007/e0b444e0-9ad0-45c0-9753-47fb7874cfb0-04072600720080_C7N1_s01_v01.jpg",
+            "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-PRODUCT_IMAGE",
+            "gs1:fileLanguageCode": "de",
+            "gs1:referencedFileEffectiveStartDateTime": "2023-09-22T00:00:00+00:00",
+            "schema:name": "04072600720080_C7N1_s01_v01",
+            "schema:encodingFormat": "image/jpeg",
+            "gs1:filePixelHeight": "6000",
+            "gs1:filePixelWidth": "2900",
+            "gs1:referencedFileSize": {
+                "@type": "gs1:QuantitativeValue",
+                "gs1:value": "3123405",
+                "gs1:unitCode": "AD"
+            }
+        },
+        {
+            "gs1:referencedFileURL": "https://eu.api.atrify.com/dam/content/dam-fmcg-pub/4072600000007/4a5bfbd9-dd07-4019-b5bf-95c5afa518ac-04072600720080_GUHL%2030_SEK%20INTENSIV%20KUR%20REPARATUR_DE.pdf",
+            "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-SAFETY_DATA_SHEET",
+            "gs1:fileLanguageCode": "de",
+            "gs1:referencedFileEffectiveStartDateTime": "2024-02-06T00:00:00+00:00",
+            "gs1:referencedFileEffectiveEndDateTime": "2025-05-13T00:00:00+00:00",
+            "schema:name": "04072600720080_GUHL 30_SEK INTENSIV KUR REPARATUR_DE",
+            "schema:encodingFormat": "application/pdf",
+            "gs1:referencedFileSize": {
+                "@type": "gs1:QuantitativeValue",
+                "gs1:value": "208833",
+                "gs1:unitCode": "AD"
+            }
+        },
+        {
+            "gs1:referencedFileURL": "https://dam-api.atrify.com/content/dam-fmcg-pub/4072600000007/775cd292-7041-4dd4-a022-c5b9ab2a4378-04072600720080_C1N1_s01_v01.png",
+            "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-PRODUCT_IMAGE",
+            "gs1:fileLanguageCode": "de",
+            "gs1:referencedFileEffectiveEndDateTime": "2023-09-22T00:00:00+00:00",
+            "schema:name": "04072600720080_C1N1_s01_v01.png",
+            "schema:encodingFormat": "image/png",
+            "gs1:filePixelHeight": "3000",
+            "gs1:filePixelWidth": "1450",
+            "gs1:referencedFileSize": {
+                "@type": "gs1:QuantitativeValue",
+                "gs1:value": "2151234",
+                "gs1:unitCode": "AD"
+            }
+        },
+        {
+            "gs1:referencedFileURL": "https://eu.api.atrify.com/dam/content/dam-fmcg-pub/4072600000007/fe2ac5ff-83f7-4f57-bbee-c9066f1ad96b-04072600720080_s02-SDS-70008-GUHL-30SEK-INTENSIV-KUR-REPARATUR.pdf",
+            "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-SAFETY_DATA_SHEET",
+            "gs1:fileLanguageCode": "de",
+            "gs1:referencedFileEffectiveStartDateTime": "2025-05-14T00:00:00+00:00",
+            "schema:name": "04072600720080_s02-SDS-70008-GUHL-30SEK-INTENSIV-KUR-REPARATUR",
+            "schema:encodingFormat": "application/pdf",
+            "gs1:referencedFileSize": {
+                "@type": "gs1:QuantitativeValue",
+                "gs1:value": "404789",
+                "gs1:unitCode": "AD"
+            }
+        }
+    ],
+    "gs1:regulatoryInformation": [
+        {
+            "@type": "gs1:RegulatoryInformation",
+            "gs1:regulatoryAct": "GHS"
+        },
+        {
+            "@type": "gs1:RegulatoryInformation",
+            "gs1:regulatoryAct": "VerpackG"
+        },
+        {
+            "@type": "gs1:RegulatoryInformation",
+            "gs1:regulationType": "gs1:RegulationTypeCode-BIOCIDE_REGULATION"
+        },
+        {
+            "@type": "gs1:RegulatoryInformation",
+            "gs1:regulationType": "gs1:RegulationTypeCode-COSMETIC_INFORMATION_REGULATION"
+        },
+        {
+            "@type": "gs1:RegulatoryInformation",
+            "gs1:regulatoryAct": "EC_2019_1148"
+        }
+    ],
+    "gs1:brandOwner": {
+        "@type": "gs1:Organization",
+        "gs1:partyGLN": "4072600000007",
+        "@id": "https://id.gs1.org/417/4072600000007",
+        "gs1:organizationName": {
+            "de": "Guhl Ikebana/KAO Brands"
+        }
+    },
+    "gs1:manufacturer": {
+        "@type": "gs1:Organization",
+        "gs1:partyGLN": "4072600000007",
+        "@id": "https://id.gs1.org/417/4072600000007",
+        "gs1:organizationName": {
+            "de": "Guhl Ikebana/KAO Brands"
+        }
+    },
+    "gs1:targetMarket": {
+        "gs1:targetMarketCountries": [
+            {
+                "gs1:countryCode": "DE"
+            }
+        ]
+    },
+    "gs1:brand": {
+        "gs1:brandName": {
+            "de": "GUHL"
+        },
+        "gs1:subBrandName": {
+            "de": "30_sek Intensiv Kur"
+        }
+    },
+    "gs1:packaging": {
+        "gs1:packagingType": "TU",
+        "gs1:packagingMaterial": [
+            {
+                "@type": "gs1:PackagingMaterialDetails",
+                "gs1:packagingMaterialType": "gs1:PackagingMaterialTypeCode-POLYMER_MIX",
+                "gs1:packagingMaterialCompositionQuantity": {
+                    "@type": "gs1:QuantitativeValue",
+                    "gs1:value": "9.91",
+                    "gs1:unitCode": "GRM"
+                },
+                "gs1de:packagingRawMaterialInformation": {
+                    "gs1de:packagingRawMaterialCode": "gs1de:PackagingRawMaterialCode-RECYCLED",
+                    "gs1de:packagingRawMaterialContentPercentage": "49.45",
+                    "@type": "gs1de:PackagingRawMaterialInformation"
+                }
+            },
+            {
+                "@type": "gs1:PackagingMaterialDetails",
+                "gs1:packagingMaterialType": "gs1:PackagingMaterialTypeCode-POLYMER_PP",
+                "gs1:packagingMaterialCompositionQuantity": {
+                    "@type": "gs1:QuantitativeValue",
+                    "gs1:value": "3.7",
+                    "gs1:unitCode": "GRM"
+                },
+                "gs1de:packagingRawMaterialInformation": {
+                    "gs1de:packagingRawMaterialCode": "gs1de:PackagingRawMaterialCode-RECYCLED",
+                    "gs1de:packagingRawMaterialContentPercentage": "0",
+                    "@type": "gs1de:PackagingRawMaterialInformation"
+                }
+            }
+        ]
+    },
+    "gs1de:importClassification": {
+        "@type": "gs1de:ImportClassification",
+        "gs1de:importClassificationTypeCode": "gs1de:ImportClassificationTypeCode-INTRASTAT",
+        "gs1de:importClassificationValue": "33059000"
+    },
+    "gs1de:tradeItemLifespan": {
+        "@type": "gs1de:TradeItemLifespan",
+        "gs1de:itemPeriodSafeToUseAfterOpening": {
+            "@type": "gs1:QuantitativeValue",
+            "gs1:value": "12",
+            "gs1:unitCode": "MON"
+        }
+    },
+    "gs1:faqs": "https://house-of-change.github.io/gs1-pilot/01/04072600720080/faqs.jsonld"
+}

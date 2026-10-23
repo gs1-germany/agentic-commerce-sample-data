@@ -1,26 +1,28 @@
 {
   "@context": {
     "dcat": "http://www.w3.org/ns/dcat#",
-    "dct": "http://purl.org/dc/terms/"
+    "dct": "http://purl.org/dc/terms/",
+    "dct:license": {
+      "@type": "@id"
+    },
+    "dcat:mediaType": {
+      "@type": "@id"
+    },
+    "dcat:downloadURL": {
+      "@type": "@id"
+    }
   },
-  "@id": "https://raw.githubusercontent.com/gs1-germany/agentic-commerce-sample-data/main/catalog.jsonld",
+  "@id": "https://gs1-germany.github.io/agentic-commerce-sample-data/catalog.jsonld#dataset",
   "@type": "dcat:Dataset",
   "dct:title": "Agentic Commerce - Sample Product Master Data",
   "dct:license": "https://creativecommons.org/licenses/by/4.0/",
   "dcat:distribution": [
     {
-      "@id": "https://raw.githubusercontent.com/gs1-germany/agentic-commerce-sample-data/main/catalog.jsonld#example-product-01",
+      "@id": "https://gs1-germany.github.io/agentic-commerce-sample-data/catalog.jsonld#04072600720080",
       "@type": "dcat:Distribution",
-      "dct:title": "Example Product 01",
-      "dct:format": "application/ld+json",
-      "dcat:downloadURL": "https://raw.githubusercontent.com/gs1-germany/agentic-commerce-sample-data/main/data/9987.jsonld"
-    },
-    {
-      "@id": "https://raw.githubusercontent.com/gs1-germany/agentic-commerce-sample-data/main/catalog.jsonld#example-product-02",
-      "@type": "dcat:Distribution",
-      "dct:title": "Example Product 02",
-      "dct:format": "application/ld+json",
-      "dcat:downloadURL": "https://raw.githubusercontent.com/gs1-germany/agentic-commerce-sample-data/main/data/656565.jsonld"
+      "dct:title": "Product master data for GTIN 04072600720080",
+      "dcat:mediaType": "https://www.iana.org/assignments/media-types/application/ld+json",
+      "dcat:downloadURL": "https://gs1-germany.github.io/agentic-commerce-sample-data/data/04072600720080.jsonld"
     }
   ]
 }
