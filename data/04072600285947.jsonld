@@ -1,0 +1,327 @@
+{
+    "@context": [
+        {
+            "@version": 1.1,
+            "@protected": true,
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "schema": "http://schema.org/",
+            "gs1": "https://ref.gs1.org/voc/",
+            "gs1:availabilityStarts": {
+                "@type": "xsd:dateTime"
+            },
+            "gs1:brand": {
+                "@type": "@id"
+            },
+            "gs1:brandName": {
+                "@container": "@language"
+            },
+            "gs1:brandOwner": {
+                "@type": "@id"
+            },
+            "gs1:consumerUsageInstructions": {
+                "@container": "@language"
+            },
+            "gs1:countryOfOrigin": {
+                "@type": "@id"
+            },
+            "gs1:filePixelHeight": {
+                "@type": "xsd:integer"
+            },
+            "gs1:filePixelWidth": {
+                "@type": "xsd:integer"
+            },
+            "gs1:functionalName": {
+                "@container": "@language"
+            },
+            "gs1:gpcCategoryDescription": {
+                "@container": "@language"
+            },
+            "gs1:grossWeight": {
+                "@type": "@id"
+            },
+            "gs1:inPackageDepth": {
+                "@type": "@id"
+            },
+            "gs1:inPackageHeight": {
+                "@type": "@id"
+            },
+            "gs1:inPackageWidth": {
+                "@type": "@id"
+            },
+            "gs1:ingredientStatement": {
+                "@container": "@language"
+            },
+            "gs1:manufacturer": {
+                "@type": "@id"
+            },
+            "gs1:netContent": {
+                "@type": "@id"
+            },
+            "gs1:netWeight": {
+                "@type": "@id"
+            },
+            "gs1:organizationName": {
+                "@container": "@language"
+            },
+            "gs1:packaging": {
+                "@type": "@id"
+            },
+            "gs1:packagingMarkedLabelAccreditation": {
+                "@type": "@vocab"
+            },
+            "gs1:productDescription": {
+                "@container": "@language"
+            },
+            "gs1:referencedFile": {
+                "@type": "@id"
+            },
+            "gs1:referencedFileEffectiveEndDateTime": {
+                "@type": "xsd:dateTime"
+            },
+            "gs1:referencedFileEffectiveStartDateTime": {
+                "@type": "xsd:dateTime"
+            },
+            "gs1:referencedFileSize": {
+                "@type": "@id"
+            },
+            "gs1:referencedFileType": {
+                "@type": "@vocab"
+            },
+            "gs1:referencedFileURL": {
+                "@type": "@id"
+            },
+            "gs1:regulationType": {
+                "@type": "@vocab"
+            },
+            "gs1:regulatoryInformation": {
+                "@type": "@id"
+            },
+            "gs1:subBrandName": {
+                "@container": "@language"
+            },
+            "gs1:targetMarket": {
+                "@type": "@id"
+            },
+            "gs1:targetMarketCountries": {
+                "@type": "@id"
+            },
+            "gs1:value": {
+                "@type": "xsd:float"
+            },
+            "gs1de": "https://voc.gs1.de/",
+            "gs1de:importClassificationTypeCode": {
+                "@type": "@vocab"
+            },
+            "gs1de:tradeItemUnitDescriptorCode": {
+                "@type": "@vocab"
+            },
+            "gs1de:targetConsumerGender": {
+                "@type": "@vocab"
+            },
+            "gs1de:targetHairTypeCode": {
+                "@type": "@vocab"
+            },
+            "gs1de:descriptionShort": {
+                "@container": "@language"
+            }
+        }
+    ],
+    "@type": "gs1:Product",
+    "@id": "https://id.gs1.org/01/04072600285947",
+    "gs1:gtin": "04072600285947",
+    "gs1de:isTradeItemABaseUnit": true,
+    "gs1de:isTradeItemAConsumerUnit": true,
+    "gs1de:isTradeItemADespatchUnit": true,
+    "gs1de:isTradeItemAVariableUnit": false,
+    "gs1de:tradeItemUnitDescriptorCode": "gs1de:TradeItemUnitDescriptorCode-BASE_UNIT_OR_EACH",
+    "gs1:gpcCategoryCode": "10000368",
+    "gs1:gpcCategoryDescription": {
+        "en": "Hair - Shampoo"
+    },
+    "gs1:availabilityStarts": "2022-08-01T00:00:00+00:00",
+    "gs1de:targetConsumerGender": "gs1:TargetConsumerGenderCode-UNISEX",
+    "gs1de:targetHairTypeCode": [
+        "gs1de:TargetHairTypeCode-FINE"
+    ],
+    "gs1:packagingMarkedLabelAccreditation": [
+        "gs1:PackagingMarkedLabelAccreditationCode-GREEN_DOT",
+        "gs1:PackagingMarkedLabelAccreditationCode-CRUELTY_FREE_PETA"
+    ],
+    "gs1:ingredientStatement": {
+        "de": "Ingredients: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Erythritol, Beer, Parfum, Lactic Acid, Glyceryl Oleate, Sorbitan Caprylate, Benzyl Alcohol, Polyquaternium-10, Sodium Chloride, Tetrasodium Glutamate Diacetate, Piroctone Olamine, Sodium Benzoate, Limonene, CI 16035, CI 47005, CI 61585."
+    },
+    "gs1de:descriptionShort": {
+        "de": "GUHL DP SH INTENSIV KRÄFT 2x250ml"
+    },
+    "gs1:functionalName": {
+        "de": "Shampoo"
+    },
+    "gs1:productDescription": {
+        "de": "GUHL INTENSIV KRÄFTIGUNG Shampoo für kraftloses, feines Haar 2 x 250 ml"
+    },
+    "gs1:consumerUsageInstructions": {
+        "de": "Anwendung: Eine kleine Menge sanft ins nasse Haar einmassieren. Gut ausspülen."
+    },
+    "gs1:inPackageDepth": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "79",
+        "gs1:unitCode": "MMT"
+    },
+    "gs1:inPackageHeight": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "189",
+        "gs1:unitCode": "MMT"
+    },
+    "gs1:inPackageWidth": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "80",
+        "gs1:unitCode": "MMT"
+    },
+    "gs1:netContent": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "500",
+        "gs1:unitCode": "MLT"
+    },
+    "gs1:grossWeight": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "565",
+        "gs1:unitCode": "GRM"
+    },
+    "gs1:netWeight": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "500",
+        "gs1:unitCode": "GRM"
+    },
+    "gs1:countryOfOrigin": [
+        {
+            "gs1:countryCode": "DE"
+        }
+    ],
+    "gs1:referencedFile": [
+        {
+            "gs1:referencedFileURL": "https://dam-api.atrify.com/content/dam-fmcg-pub/4072600000007/91c42a12-3081-4272-98ad-258c37afc0a5-04072600285947_C7N1_s01_v01.png",
+            "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-PRODUCT_IMAGE",
+            "gs1:fileLanguageCode": "de",
+            "gs1:referencedFileEffectiveEndDateTime": "2023-12-19T00:00:00+00:00",
+            "schema:name": "04072600285947_C7N1_s01_v01.png",
+            "schema:encodingFormat": "image/png",
+            "gs1:filePixelHeight": "1123",
+            "gs1:filePixelWidth": "893",
+            "gs1:referencedFileSize": {
+                "@type": "gs1:QuantitativeValue",
+                "gs1:value": "944895",
+                "gs1:unitCode": "AD"
+            }
+        },
+        {
+            "gs1:referencedFileURL": "https://eu.api.atrify.com/dam/content/dam-fmcg-pub/4072600000007/c4e85728-43a7-47eb-9997-e60a23b671a9-04072600285947_C1N1_s02_v01.jpg",
+            "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-PRODUCT_IMAGE",
+            "gs1:fileLanguageCode": "de",
+            "gs1:referencedFileEffectiveStartDateTime": "2023-12-19T00:00:00+00:00",
+            "schema:name": "04072600285947_C1N1_s02_v01",
+            "schema:encodingFormat": "image/jpeg",
+            "gs1:filePixelHeight": "2401",
+            "gs1:filePixelWidth": "1930",
+            "gs1:referencedFileSize": {
+                "@type": "gs1:QuantitativeValue",
+                "gs1:value": "1808712",
+                "gs1:unitCode": "AD"
+            }
+        },
+        {
+            "gs1:referencedFileURL": "https://dam-api.atrify.com/content/dam-fmcg-pub/4072600000007/beeb25c9-2735-4d24-812c-fa0fd7db648f-04072600285947_C1N1_s01_v01.png",
+            "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-PRODUCT_IMAGE",
+            "gs1:fileLanguageCode": "de",
+            "gs1:referencedFileEffectiveEndDateTime": "2023-12-19T00:00:00+00:00",
+            "schema:name": "04072600285947_C1N1_s01_v01.png",
+            "schema:encodingFormat": "image/png",
+            "gs1:filePixelHeight": "1124",
+            "gs1:filePixelWidth": "891",
+            "gs1:referencedFileSize": {
+                "@type": "gs1:QuantitativeValue",
+                "gs1:value": "605622",
+                "gs1:unitCode": "AD"
+            }
+        },
+        {
+            "gs1:referencedFileURL": "https://eu.api.atrify.com/dam/content/dam-fmcg-pub/4072600000007/a21a4485-abbd-4772-b969-dec14786a832-04072600285947_C7N1_s02_v01.jpg",
+            "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-PRODUCT_IMAGE",
+            "gs1:fileLanguageCode": "de",
+            "gs1:referencedFileEffectiveStartDateTime": "2023-12-19T00:00:00+00:00",
+            "schema:name": "04072600285947_C7N1_s02_v01",
+            "schema:encodingFormat": "image/jpeg",
+            "gs1:filePixelHeight": "2401",
+            "gs1:filePixelWidth": "1930",
+            "gs1:referencedFileSize": {
+                "@type": "gs1:QuantitativeValue",
+                "gs1:value": "2034956",
+                "gs1:unitCode": "AD"
+            }
+        }
+    ],
+    "gs1:regulatoryInformation": [
+        {
+            "@type": "gs1:RegulatoryInformation",
+            "gs1:regulatoryAct": "GHS"
+        },
+        {
+            "@type": "gs1:RegulatoryInformation",
+            "gs1:regulationType": "gs1:RegulationTypeCode-COSMETIC_INFORMATION_REGULATION"
+        },
+        {
+            "@type": "gs1:RegulatoryInformation",
+            "gs1:regulationType": "gs1:RegulationTypeCode-BIOCIDE_REGULATION"
+        },
+        {
+            "@type": "gs1:RegulatoryInformation",
+            "gs1:regulatoryAct": "VerpackG"
+        }
+    ],
+    "gs1:brandOwner": {
+        "@type": "gs1:Organization",
+        "gs1:partyGLN": "4072600000007",
+        "@id": "https://id.gs1.org/417/4072600000007",
+        "gs1:organizationName": {
+            "de": "Guhl Ikebana GmbH"
+        }
+    },
+    "gs1:manufacturer": {
+        "@type": "gs1:Organization",
+        "gs1:partyGLN": "4072600000007",
+        "@id": "https://id.gs1.org/417/4072600000007",
+        "gs1:organizationName": {
+            "de": "Guhl Ikebana GmbH"
+        }
+    },
+    "gs1:targetMarket": {
+        "gs1:targetMarketCountries": [
+            {
+                "gs1:countryCode": "DE"
+            }
+        ]
+    },
+    "gs1:brand": {
+        "gs1:brandName": {
+            "de": "GUHL"
+        },
+        "gs1:subBrandName": {
+            "de": "INTENSIV KRÄFTIGUNG"
+        }
+    },
+    "gs1:packaging": {
+        "gs1:packagingType": "MPG"
+    },
+    "gs1de:importClassification": {
+        "@type": "gs1de:ImportClassification",
+        "gs1de:importClassificationTypeCode": "gs1de:ImportClassificationTypeCode-INTRASTAT",
+        "gs1de:importClassificationValue": "33051000"
+    },
+    "gs1de:tradeItemLifespan": {
+        "@type": "gs1de:TradeItemLifespan",
+        "gs1de:itemPeriodSafeToUseAfterOpening": {
+            "@type": "gs1:QuantitativeValue",
+            "gs1:value": "12",
+            "gs1:unitCode": "MON"
+        }
+    }
+}
