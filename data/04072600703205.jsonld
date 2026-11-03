@@ -1,0 +1,382 @@
+{
+    "@context": [
+        {
+            "@version": 1.1,
+            "@protected": true,
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "schema": "http://schema.org/",
+            "gs1": "https://ref.gs1.org/voc/",
+            "gs1:availabilityStarts": {
+                "@type": "xsd:dateTime"
+            },
+            "gs1:brand": {
+                "@type": "@id"
+            },
+            "gs1:brandName": {
+                "@container": "@language"
+            },
+            "gs1:brandOwner": {
+                "@type": "@id"
+            },
+            "gs1:consumerUsageInstructions": {
+                "@container": "@language"
+            },
+            "gs1:countryOfOrigin": {
+                "@type": "@id"
+            },
+            "gs1:filePixelHeight": {
+                "@type": "xsd:integer"
+            },
+            "gs1:filePixelWidth": {
+                "@type": "xsd:integer"
+            },
+            "gs1:functionalName": {
+                "@container": "@language"
+            },
+            "gs1:gpcCategoryDescription": {
+                "@container": "@language"
+            },
+            "gs1:grossWeight": {
+                "@type": "@id"
+            },
+            "gs1:inPackageDepth": {
+                "@type": "@id"
+            },
+            "gs1:inPackageHeight": {
+                "@type": "@id"
+            },
+            "gs1:inPackageWidth": {
+                "@type": "@id"
+            },
+            "gs1:ingredientStatement": {
+                "@container": "@language"
+            },
+            "gs1:manufacturer": {
+                "@type": "@id"
+            },
+            "gs1:netContent": {
+                "@type": "@id"
+            },
+            "gs1:netWeight": {
+                "@type": "@id"
+            },
+            "gs1:organizationName": {
+                "@container": "@language"
+            },
+            "gs1:packaging": {
+                "@type": "@id"
+            },
+            "gs1:packagingMarkedLabelAccreditation": {
+                "@type": "@vocab"
+            },
+            "gs1:packagingMaterial": {
+                "@type": "@id"
+            },
+            "gs1:packagingMaterialCompositionQuantity": {
+                "@type": "@id"
+            },
+            "gs1:packagingMaterialType": {
+                "@type": "@vocab"
+            },
+            "gs1:productDescription": {
+                "@container": "@language"
+            },
+            "gs1:productFeatureBenefit": {
+                "@container": "@language"
+            },
+            "gs1:productMarketingMessage": {
+                "@container": "@language"
+            },
+            "gs1:referencedFile": {
+                "@type": "@id"
+            },
+            "gs1:referencedFileEffectiveStartDateTime": {
+                "@type": "xsd:dateTime"
+            },
+            "gs1:referencedFileSize": {
+                "@type": "@id"
+            },
+            "gs1:referencedFileType": {
+                "@type": "@vocab"
+            },
+            "gs1:referencedFileURL": {
+                "@type": "@id"
+            },
+            "gs1:regulationType": {
+                "@type": "@vocab"
+            },
+            "gs1:regulatoryInformation": {
+                "@type": "@id"
+            },
+            "gs1:subBrandName": {
+                "@container": "@language"
+            },
+            "gs1:targetMarket": {
+                "@type": "@id"
+            },
+            "gs1:targetMarketCountries": {
+                "@type": "@id"
+            },
+            "gs1:value": {
+                "@type": "xsd:float"
+            },
+            "gs1de": "https://voc.gs1.de/",
+            "gs1de:importClassificationTypeCode": {
+                "@type": "@vocab"
+            },
+            "gs1de:tradeItemUnitDescriptorCode": {
+                "@type": "@vocab"
+            },
+            "gs1de:targetConsumerGender": {
+                "@type": "@vocab"
+            },
+            "gs1de:packagingRawMaterialCode": {
+                "@type": "@vocab"
+            },
+            "gs1de:packagingRawMaterialContentPercentage": {
+                "@type": "xsd:float"
+            },
+            "gs1de:targetHairTypeCode": {
+                "@type": "@vocab"
+            },
+            "gs1de:descriptionShort": {
+                "@container": "@language"
+            },
+            "gs1de:productKeyWords": {
+                "@container": "@language"
+            }
+        }
+    ],
+    "@type": "gs1:Product",
+    "@id": "https://id.gs1.org/01/04072600703205",
+    "gs1:gtin": "04072600703205",
+    "gs1de:isTradeItemABaseUnit": true,
+    "gs1de:isTradeItemAConsumerUnit": true,
+    "gs1de:isTradeItemADespatchUnit": false,
+    "gs1de:isTradeItemAVariableUnit": false,
+    "gs1de:tradeItemUnitDescriptorCode": "gs1de:TradeItemUnitDescriptorCode-BASE_UNIT_OR_EACH",
+    "gs1:gpcCategoryCode": "10000368",
+    "gs1:gpcCategoryDescription": {
+        "en": "Hair - Shampoo"
+    },
+    "gs1:availabilityStarts": "2024-06-07T00:00:00+00:00",
+    "gs1:productFeatureBenefit": {
+        "de": [
+            "HAARTYP / LIEFERUMFANG: Für kraftloses, feines Haar - Guhl Intensiv Kräftigung Shampoo - Inhalt: 500ml",
+            "KRÄFTIGUNG FÜR FEINES HAAR: Stärkende Formulierung, mit Bier, kräftigt die feine Haarstruktur von innen heraus und sorgt für widerstandsfähigeres Haar",
+            "ANHALTENDES VOLUMEN: Feines, kraftloses Haar wird sichtbar voller und griffiger und spürbar stabiler.",
+            "FRUCHTIG-FRISCH ER DUFT: Mit süßem Jasmin und spritziger Aprikose.",
+            "BESONDERS ERGIBIGES SHAMPOO: Aus einer kleinen Menge wird reichhaltiger Schaum, der sanft zur Kopfhaut ist."
+        ]
+    },
+    "gs1:productMarketingMessage": {
+        "de": "Guhl Shampoos überzeugen durch ihre Qualität. Die Formulierungen sind sanft zur Kopfhaut, dermatologisch bestätigt und besonders ergiebig – dank des reichhaltigen, seidigen Schaums. Die Inhaltsstoffe des Silber Glanz & Pflege Shampoos sind zu 94 % natürlichen Ursprungs* und zu 99 % biologisch abbaubar **. Auf Silikone und tierische Inhaltsstoffe verzichten wir in unseren Formulierungen gänzlich. Wir stellen unsere Shampoos in Deutschland her und achten auch bei der Verpackung darauf, dass die Flaschenkörper zu 99 % aus recyceltem Material bestehen und selbst recycelbar sind. Das ist unser Guhl Versprechen an die Welt. *gem. ISO 16128, inkl. 78 % Wasser **gem. OECD-Richtlinien & inkl. Wasser Echte Qualität, der du vertrauen kannst, um deinen Wohlfühlmoment unbeschwert zu genießen. Das ist die Marke Guhl Seit über 75 Jahren nutzen wir unsere Expertise und Leidenschaft und kreieren hochwertige Haarpflegeprodukte, auf die du dich verlassen kannst. Mit über 20 Produktlinien bieten wir für nahezu jedes Haarbedürfnis die passende Pflege und sorgen für sichtbar und spürbar gepflegtes Haar. Unsere Produkte sind dermatologisch bestätigt, ohne Silikone formuliert, PETA APPROVED VEGAN/ Global Animal Test Policy, enthalten regionale Inhaltsstoffe aus Europa und werden in Deutschland entwickelt sowie hergestellt. Schenke deinem Haar die Pflege, die es sich wünscht - und genieße den verwöhnenden Schaum, die himmlischen Düfte und die samtigen Texturen unserer Produkte für ein sinnliches Pflegeerlebnis bei jeder Haarwäsche."
+    },
+    "gs1de:productKeyWords": {
+        "de": "haarshampoo hair shampoo haarseife haarwaschmittel feines kraftloses haar bio vegan naturkosmetik abbaubares shampoo organic natur ökologisch umweltfreundlich umweltschonend natürlich silikonfrei kräftigend bier recycelbar ressourcenschonend"
+    },
+    "gs1de:targetConsumerGender": "gs1:TargetConsumerGenderCode-UNISEX",
+    "gs1de:targetHairTypeCode": [
+        "gs1de:TargetHairTypeCode-NORMAL",
+        "gs1de:TargetHairTypeCode-SHORT",
+        "gs1de:TargetHairTypeCode-SEMI_LONG"
+    ],
+    "gs1:packagingMarkedLabelAccreditation": [
+        "gs1:PackagingMarkedLabelAccreditationCode-CRUELTY_FREE_PETA",
+        "gs1:PackagingMarkedLabelAccreditationCode-GREEN_DOT"
+    ],
+    "gs1:ingredientStatement": {
+        "de": "INGREDIENTS: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Beer, Lactic Acid, Glyceryl Oleate, Sorbitan Caprylate, Hydroxypropyl Guar Hydroxypropyltrimonium Chloride, Sodium Chloride, Erythritol, Panthenol, Tetrasodium Glutamate Diacetate, Glycine, Piroctone Olamine, Citric Acid, Sodium Sulfate, Sodium Benzoate, Parfum, Citrus Limon Peel Oil, Limonene, Tetramethyl Acetyloctahydronaphthalenes, CI 15510, Caramel."
+    },
+    "gs1de:descriptionShort": {
+        "de": "GUHL INTENSIV KRÄFTIGUNG Sham 500ML"
+    },
+    "gs1:functionalName": {
+        "de": "Shampoo"
+    },
+    "gs1:productDescription": {
+        "de": "GUHL SILBER INTENSIV KRÄFTIGUNG Shampoo 500 ml"
+    },
+    "gs1:consumerUsageInstructions": {
+        "de": "ANWENDUNG: Guhl Shampoos sind besonders ergiebig*. Eine kleine Menge ist ausreichend. Sanft ins nasse Haar einmassieren und genießen. Gut ausspülen. * Eine kleine Menge genügt - dank reichhaltigem Schaum"
+    },
+    "gs1:inPackageDepth": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "64",
+        "gs1:unitCode": "MMT"
+    },
+    "gs1:inPackageHeight": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "201",
+        "gs1:unitCode": "MMT"
+    },
+    "gs1:inPackageWidth": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "64",
+        "gs1:unitCode": "MMT"
+    },
+    "gs1:netContent": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "500",
+        "gs1:unitCode": "MLT"
+    },
+    "gs1:grossWeight": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "550",
+        "gs1:unitCode": "GRM"
+    },
+    "gs1:netWeight": {
+        "@type": "gs1:QuantitativeValue",
+        "gs1:value": "500",
+        "gs1:unitCode": "GRM"
+    },
+    "gs1:countryOfOrigin": [
+        {
+            "gs1:countryCode": "DE"
+        }
+    ],
+    "gs1:referencedFile": [
+        {
+            "gs1:referencedFileURL": "https://eu.api.atrify.com/dam/content/dam-fmcg-pub/4072600000007/42907380-70c6-4c0d-ad83-b0e3e638ca7f-04072600703205_C7N1_s02_v01.jpg",
+            "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-PRODUCT_IMAGE",
+            "gs1:fileLanguageCode": "de",
+            "gs1:referencedFileEffectiveStartDateTime": "2026-07-08T00:00:00+00:00",
+            "schema:name": "04072600703205_C7N1_s02_v01",
+            "schema:encodingFormat": "image/jpeg",
+            "gs1:filePixelHeight": "7795",
+            "gs1:filePixelWidth": "3780",
+            "gs1:referencedFileSize": {
+                "@type": "gs1:QuantitativeValue",
+                "gs1:value": "8448666",
+                "gs1:unitCode": "AD"
+            }
+        },
+        {
+            "gs1:referencedFileURL": "https://eu.api.atrify.com/dam/content/dam-fmcg-pub/4072600000007/a569d2e3-3175-44e9-a5d9-40c8e9d5c199-04072600703205_T_s02_v01.pdf",
+            "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-SAFETY_DATA_SHEET",
+            "gs1:fileLanguageCode": "de",
+            "gs1:referencedFileEffectiveStartDateTime": "2026-07-08T00:00:00+00:00",
+            "schema:name": "04072600703205_T_s02_v01",
+            "schema:encodingFormat": "application/pdf",
+            "gs1:referencedFileSize": {
+                "@type": "gs1:QuantitativeValue",
+                "gs1:value": "405366",
+                "gs1:unitCode": "AD"
+            }
+        },
+        {
+            "gs1:referencedFileURL": "https://eu.api.atrify.com/dam/content/dam-fmcg-pub/4072600000007/d97c1490-cbda-42d6-8f0f-22125ee32047-04072600703205_C1N1_s02_v01.jpg",
+            "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-PRODUCT_IMAGE",
+            "gs1:fileLanguageCode": "de",
+            "gs1:referencedFileEffectiveStartDateTime": "2026-07-08T00:00:00+00:00",
+            "schema:name": "04072600703205_C1N1_s02_v01",
+            "schema:encodingFormat": "image/jpeg",
+            "gs1:filePixelHeight": "7795",
+            "gs1:filePixelWidth": "3780",
+            "gs1:referencedFileSize": {
+                "@type": "gs1:QuantitativeValue",
+                "gs1:value": "7595478",
+                "gs1:unitCode": "AD"
+            }
+        }
+    ],
+    "gs1:regulatoryInformation": [
+        {
+            "@type": "gs1:RegulatoryInformation",
+            "gs1:regulatoryAct": "GHS"
+        },
+        {
+            "@type": "gs1:RegulatoryInformation",
+            "gs1:regulationType": "gs1:RegulationTypeCode-COSMETIC_INFORMATION_REGULATION"
+        },
+        {
+            "@type": "gs1:RegulatoryInformation",
+            "gs1:regulationType": "gs1:RegulationTypeCode-E_MARK"
+        },
+        {
+            "@type": "gs1:RegulatoryInformation",
+            "gs1:regulationType": "gs1:RegulationTypeCode-BIOCIDE_REGULATION"
+        },
+        {
+            "@type": "gs1:RegulatoryInformation",
+            "gs1:regulatoryAct": "VerpackG"
+        }
+    ],
+    "gs1:brandOwner": {
+        "@type": "gs1:Organization",
+        "gs1:partyGLN": "4072600000007",
+        "@id": "https://id.gs1.org/417/4072600000007",
+        "gs1:organizationName": {
+            "de": "Guhl Ikebana GmbH"
+        }
+    },
+    "gs1:manufacturer": {
+        "@type": "gs1:Organization",
+        "gs1:partyGLN": "4072600000007",
+        "@id": "https://id.gs1.org/417/4072600000007",
+        "gs1:organizationName": {
+            "de": "Guhl Ikebana GmbH"
+        }
+    },
+    "gs1:targetMarket": {
+        "gs1:targetMarketCountries": [
+            {
+                "gs1:countryCode": "DE"
+            }
+        ]
+    },
+    "gs1:brand": {
+        "gs1:brandName": {
+            "de": "GUHL"
+        },
+        "gs1:subBrandName": {
+            "de": "INTENSIV KRÄFTIGUNG"
+        }
+    },
+    "gs1:packaging": {
+        "gs1:packagingType": "BO",
+        "gs1:packagingMaterial": [
+            {
+                "@type": "gs1:PackagingMaterialDetails",
+                "gs1:packagingMaterialType": "gs1:PackagingMaterialTypeCode-POLYMER_HDPE",
+                "gs1:packagingMaterialCompositionQuantity": {
+                    "@type": "gs1:QuantitativeValue",
+                    "gs1:value": "36.0",
+                    "gs1:unitCode": "GRM"
+                },
+                "gs1de:packagingRawMaterialInformation": {
+                    "gs1de:packagingRawMaterialCode": "gs1de:PackagingRawMaterialCode-RECYCLED",
+                    "gs1de:packagingRawMaterialContentPercentage": "50",
+                    "@type": "gs1de:PackagingRawMaterialInformation"
+                }
+            },
+            {
+                "@type": "gs1:PackagingMaterialDetails",
+                "gs1:packagingMaterialType": "gs1:PackagingMaterialTypeCode-PLASTIC_OTHER",
+                "gs1:packagingMaterialCompositionQuantity": {
+                    "@type": "gs1:QuantitativeValue",
+                    "gs1:value": "7.1",
+                    "gs1:unitCode": "GRM"
+                },
+                "gs1de:packagingRawMaterialInformation": {
+                    "gs1de:packagingRawMaterialCode": "gs1de:PackagingRawMaterialCode-RECYCLED",
+                    "gs1de:packagingRawMaterialContentPercentage": "0",
+                    "@type": "gs1de:PackagingRawMaterialInformation"
+                }
+            }
+        ]
+    },
+    "gs1de:importClassification": {
+        "@type": "gs1de:ImportClassification",
+        "gs1de:importClassificationTypeCode": "gs1de:ImportClassificationTypeCode-INTRASTAT",
+        "gs1de:importClassificationValue": "33051000"
+    },
+    "gs1de:tradeItemLifespan": {
+        "@type": "gs1de:TradeItemLifespan",
+        "gs1de:itemPeriodSafeToUseAfterOpening": {
+            "@type": "gs1:QuantitativeValue",
+            "gs1:value": "12",
+            "gs1:unitCode": "MON"
+        }
+    }
+}

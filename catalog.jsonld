@@ -23,6 +23,20 @@
       "dct:title": "Product master data for GTIN 04072600720080",
       "dcat:mediaType": "https://www.iana.org/assignments/media-types/application/ld+json",
       "dcat:downloadURL": "https://gs1-germany.github.io/agentic-commerce-sample-data/data/04072600720080.jsonld"
+    },
+    {
+      "@id": "https://gs1-germany.github.io/agentic-commerce-sample-data/catalog.jsonld#04072600703205",
+      "@type": "dcat:Distribution",
+      "dct:title": "Product master data for GTIN 04072600703205",
+      "dcat:mediaType": "https://www.iana.org/assignments/media-types/application/ld+json",
+      "dcat:downloadURL": "https://gs1-germany.github.io/agentic-commerce-sample-data/data/04072600703205.jsonld"
+    },
+    {
+      "@id": "https://gs1-germany.github.io/agentic-commerce-sample-data/catalog.jsonld#04072600285947",
+      "@type": "dcat:Distribution",
+      "dct:title": "Product master data for GTIN 04072600285947",
+      "dcat:mediaType": "https://www.iana.org/assignments/media-types/application/ld+json",
+      "dcat:downloadURL": "https://gs1-germany.github.io/agentic-commerce-sample-data/data/04072600285947.jsonld"
     }
   ]
 }
